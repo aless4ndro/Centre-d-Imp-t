@@ -57,17 +57,3 @@ a {
   margin: 0 auto;
   display: block;
 }
-
-/* Masquer le titre en dessous de 800px */
-@media only screen and (max-width: 800px) {
-  h1 {
-    display: none;
-  }
-}
-
-/* Afficher le titre au-dessus de 800px */
-@media only screen and (min-width: 800px) {
-  h1 {
-    display: block;
-  }
-}
