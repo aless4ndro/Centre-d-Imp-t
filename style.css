@@ -54,10 +54,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
-  #logo {
-    width: 50%;
-    margin: auto;
-    display: block;
-  }
+#logo {
+  margin: 0 auto;
+  display: block;
 }
