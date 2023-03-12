@@ -1,5 +1,5 @@
 const form = document.querySelector('form');
-const resultatDiv = document.getElementById('resultat');
+const resultatDiv = document.getElementById('#resultat');
 
 form.addEventListener('submit', function (event) {
   event.preventDefault();
@@ -10,11 +10,11 @@ form.addEventListener('submit', function (event) {
   let impot;
 
   if (sexe === 'homme' && age > 20) {
-    impot = 'Vous etes imposable.';
+    alert('Vous etes imposable.');
   } else if (sexe === 'femme' && age >= 18 && age <= 35) {
-    impot = 'Vous etes imposable.';
+    alert('Vous etes imposable.');
   } else {
-    impot = 'Vous n etes pas imposables';
+    alert('Vous n etes pas imposables');
   }
 
   resultatDiv.innerHTML = impot;
